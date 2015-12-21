@@ -23,9 +23,8 @@
             <a href="#"><h1>Feedr</h1></a>
             <nav>
               <ul>
-                <li><a href="#">News Source: <span>Mashable</span></a>
+                <li><a href="#">News Source: <span>NYT</span></a>
                   <ul>
-                      <li><a href="#">Mashable</a></li>
                       <li><a href="#">Reddit</a></li>
                       <li><a href="#">Digg</a></li>
                   </ul>
@@ -42,71 +41,32 @@
         <div id="popUp" class="loader hidden">
           <a href="#" class="closePopUp">X</a>
           <div class="container">
-            <h1>Article title here</h1>
-            <p>
-              Article description/content here.
-            </p>
+              <h1></h1>
+              <p></p>
             <a href="#" class="popUpAction" target="_blank">Read more from source</a>
           </div>
         </div>
-        <section id="main" class="container">
-          <article class="article">
-            <section class="featuredImage">
-              <img src="images/article_placeholder_1.jpg" alt="" />
-            </section>
-            <section class="articleContent">
-                <a href="#"><h3>Test article title</h3></a>
-                <h6>Lifestyle</h6>
-            </section>
-            <section class="impressions">
-              526
-            </section>
-            <div class="clearfix"></div>
-          </article>
-          <article class="article">
-            <section class="featuredImage">
-              <img src="images/article_placeholder_2.jpg" alt="" />
-            </section>
-            <section class="articleContent">
-                <a href="#"><h3>Test article title</h3></a>
-                <h6>Lifestyle</h6>
-            </section>
-            <section class="impressions">
-              526
-            </section>
-            <div class="clearfix"></div>
-          </article>
-          <article class="article">
-            <section class="featuredImage">
-              <img src="images/article_placeholder_2.jpg" alt="" />
-            </section>
-            <section class="articleContent">
-                <a href="#"><h3>Test article title</h3></a>
-                <h6>Lifestyle</h6>
-            </section>
-            <section class="impressions">
-              526
-            </section>
-            <div class="clearfix"></div>
-          </article>
-          <article class="article">
-            <section class="featuredImage">
-              <img src="images/article_placeholder_1.jpg" alt="" />
-            </section>
-            <section class="articleContent">
-                <a href="#"><h3>Test article title</h3></a>
-                <h6>Lifestyle</h6>
-            </section>
-            <section class="impressions">
-              526
-            </section>
-            <div class="clearfix"></div>
-          </article>
-        </section>
+        <section id="main" class="container"></section>
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
+        <script src="js/handlebars-v4.0.5.js"></script>
         <script src="js/app.js"></script>
-
+        <script id="articleTemp" type="text/x=handlebars-template">
+          <article class="article">
+            <section class="featuredImage">
+              <img src="{{thumbnail}}" alt="" />
+            </section>
+            <section class="articleContent">
+              <a href="#"><h3>{{title}}</h3></a>
+              <h6>Movie Review</h6>
+            </section>
+            <section class="impressions">
+                {{publicationDate}}
+            </section>
+            <div class="hidden" id="readMore">{{readMore}}</div>
+            <div class="clearfix"></div>
+        </article>
+        </script>
     </body>
 </html>
