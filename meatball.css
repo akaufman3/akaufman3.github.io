@@ -1,0 +1,84 @@
+body { 
+	background-color: #3398DB;
+}
+
+.fallingItem {
+    position: absolute;
+    height: 100px;
+	width: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation: drop 4s infinite;
+    right: 100px;
+}
+
+.meatball {
+    position: absolute;
+    height: 100px;
+	width: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    right: 100px;
+}
+
+.fork {
+    position: absolute;
+    height: 100px;
+	width: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    right: 100px;
+}
+
+.land {
+    position: fixed;
+    background-image: url('images/landscape.png');
+    width: 100%;
+    height: 200px;
+    bottom: 0;
+    left: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.startTextContainer, .gameOver {
+	position: absolute;
+     margin: auto;
+     top: 0;
+     right: 0;
+     bottom: 0;
+     left: 0;
+     width: 400px;
+     height: 250px;
+     background-color: whitesmoke;
+}
+
+.textContainer {
+	text-align: center;
+	position: absolute;
+	margin: auto;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	width: 100px;
+	height: 100px;
+}
+
+h1 {
+	text-align: center;
+	font-size: 1.5rem;
+	position: relative;
+  	top: 20%;
+  	transform: translateY(-20%);
+}
+
+.startText {
+	text-align: center;
+	margin: auto;
+	width: 300px;
+	height: 300px;
+	position: relative;
+  	top: 70%;
+  	transform: translateY(-35%);
+}
