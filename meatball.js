@@ -126,9 +126,9 @@ jQuery(function() {
 	// remove all items if they hit the ground
 
 	 function checkPos(b) {
-		var bottomWindowPosition = $(window).height() - 75;
-	 	if (b.position().bottom > bottomWindowPosition) {
-	 		if(b.hasClass('meatball')) {
+		var bottomWindowPosition = $(window).height() - 85;
+	 	if (b.position().top > bottomWindowPosition) {
+	 		if (b.hasClass('meatball')) {
 	 			// kill the keyframe
 	 			// display explosion (maybe alert message is a large page explosion?)
 	 			// end game
