@@ -39,7 +39,7 @@ jQuery(function() {
         		pops += 1;
         		setTimeout(function() {
 					$(fallingItem).remove();
-				}, 400);
+				}, 200);
 
 		     	if (pops === 10) {
 		      		var gameWonDiv = $('<div class="gameOver"></div>');
