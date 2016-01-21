@@ -127,7 +127,7 @@ jQuery(function() {
 
 	 function checkPos(b) {
 		var bottomWindowPosition = $(window).height() - 75;
-	 	if (b.position().top > bottomWindowPosition) {
+	 	if (b.position().bottom > bottomWindowPosition) {
 	 		if(b.hasClass('meatball')) {
 	 			// kill the keyframe
 	 			// display explosion (maybe alert message is a large page explosion?)
