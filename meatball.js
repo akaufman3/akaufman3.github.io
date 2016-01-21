@@ -34,12 +34,12 @@ jQuery(function() {
 			fallingItem.removeClass('fallingItem');
 
 			$(fallingItem).on('click', function(){
-      			$(fallingItem).css({"background-image":"url('images/explosion.png')", "width":"150px", "height":"150px"});
+      			// $(fallingItem).css({"background-image":"url('images/explosion.png')", "width":"150px", "height":"150px"});
         		$(fallingItem).addClass('popped');
         		pops += 1;
         		setTimeout(function() {
 					$(fallingItem).remove();
-				}, 800);
+				}, 700);
 
 		     	if (pops === 10) {
 		      		var gameWonDiv = $('<div class="gameOver"></div>');
