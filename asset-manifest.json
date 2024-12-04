@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.ba41dd35.css",
-    "main.js": "/react-gh-pages/static/js/main.ae232df0.js",
-    "static/js/453.ed3810f9.chunk.js": "/react-gh-pages/static/js/453.ed3810f9.chunk.js",
-    "index.html": "/react-gh-pages/index.html",
-    "main.ba41dd35.css.map": "/react-gh-pages/static/css/main.ba41dd35.css.map",
-    "main.ae232df0.js.map": "/react-gh-pages/static/js/main.ae232df0.js.map",
-    "453.ed3810f9.chunk.js.map": "/react-gh-pages/static/js/453.ed3810f9.chunk.js.map"
+    "main.css": "/akaufman3.github.io/static/css/main.ba41dd35.css",
+    "main.js": "/akaufman3.github.io/static/js/main.f8661e23.js",
+    "static/js/453.ed3810f9.chunk.js": "/akaufman3.github.io/static/js/453.ed3810f9.chunk.js",
+    "index.html": "/akaufman3.github.io/index.html",
+    "main.ba41dd35.css.map": "/akaufman3.github.io/static/css/main.ba41dd35.css.map",
+    "main.f8661e23.js.map": "/akaufman3.github.io/static/js/main.f8661e23.js.map",
+    "453.ed3810f9.chunk.js.map": "/akaufman3.github.io/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ba41dd35.css",
-    "static/js/main.ae232df0.js"
+    "static/js/main.f8661e23.js"
   ]
 }
